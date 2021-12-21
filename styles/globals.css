@@ -7,10 +7,17 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #3b5998;
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+}
+a:hover {
+  text-decoration: underline;
+}
+img {
+  max-width: 100%;
+  display: block;
 }
